@@ -1,0 +1,39 @@
+: 
+: Grbl 1.1f ['$' for help]
+: [MSG:'$H'|'$X' to unlock]
+: [MSG:Caution: Unlocked]
+: ok
+: $0=10 ;step pulse, microseconds
+: $1=25 ;step idle delay, milliseconds
+: $2=0 ;step port invert, mask
+: $3=0 ;direction port invert, mask
+: $4=0 ;step enable invert, boolean
+: $5=0 ;limit pins invert, boolean
+: $6=0 ;probe pin invert, boolean
+: $10=1 ;status report, mask
+: $11=0.010 ;junction deviation, mm
+: $12=0.002 ;arc tolerance, mm
+: $13=0 ;report inches, boolean
+: $20=0 ;soft limits, boolean
+: $21=0 ;hard limits, boolean
+: $22=1 ;homing cycle, boolean
+: $23=1 ;homing dir invert, mask
+: $24=500.000 ;homing feed, mm/min
+: $25=3000.000 ;homing seek, mm/min
+: $26=250 ;homing debounce, milliseconds
+: $27=10.000 ;homing pull-off, mm
+: $30=1000 ;max spindle speed, RPM
+: $31=0 ;min spindle speed, RPM
+: $32=0 ;laser mode, boolean
+: $100=80.000 ;x steps/mm
+: $101=80.000 ;y steps/mm
+: $102=250.000 ;z steps/mm
+: $110=6000.000 ;x max rate mm/min
+: $111=6000.000 ;y max rate mm/min
+: $112=500.000 ;z max rate mm/min
+: $120=1000.000 ;x acceleration, mm/sec^2
+: $121=1000.000 ;y acceleration, mm/sec^2
+: $122=1000.000 ;z acceleration, mm/sec^2
+: $130=350.000 ;x max travel, mm
+: $131=280.000 ;y max travel, mm
+: $132=200.000 ;z max travel, mm
